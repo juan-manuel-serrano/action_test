@@ -2,4 +2,4 @@ FROM alpine:3.16
 
 RUN apk add --no-cache fortune
 
-CMD [ "fortune" ]
+ENTRYPOINT [ "fortune" ]
